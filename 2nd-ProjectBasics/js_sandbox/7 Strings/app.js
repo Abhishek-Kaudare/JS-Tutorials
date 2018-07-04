@@ -46,11 +46,11 @@ val = firstName.substring(0,4);
 
 // slice()
 val = firstName.slice(0,4);
-val = firstName.slice(-3);
+val = firstName.slice(-3); console.log(val);
 val = firstName.substring(-3);// Have a Check Important!!!!!!!!!!!! //
 
 // split()
-val = str.split(''); console.log(val);
+val = str.split('');
 val = tags.split(',');
 
 // replace()
