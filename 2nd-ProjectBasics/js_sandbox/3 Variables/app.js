@@ -14,7 +14,7 @@ console.log(greeting);
 //Var can't start with numbers
 //var can just contain letters,numbers,_,$
 //_name,$name,name234 allowed
-//(anySymbol)name,12name not allowed
+//(anyOtherSymbol)name,12name not allowed
 
 // Multi Word Vars
 var firstName = "John" //Camel Case used for all variables

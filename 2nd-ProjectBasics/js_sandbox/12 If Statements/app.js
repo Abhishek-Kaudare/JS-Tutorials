@@ -35,18 +35,19 @@ const id = 100;
 // }
 
 // Test if undefined
-// if(typeof id !== 'undefined'){
+// if(typeof id !== 'undefined'){ //To test if the id var is defined
 //   console.log(`The ID is ${id}`);
 // } else {
 //   console.log('NO ID');
 // }
 
 // GREATER OR LESS THAN
-// if(id <= 100){
-//   console.log('CORRECT');
-// } else {
-//   console.log('INCORRECT');
-// }
+console.log(typeof id);
+if(id <= 100   ){
+  console.log('CORRECT');
+} else {
+  console.log('INCORRECT');
+}
 
 // IF ELSE
 

@@ -1,7 +1,10 @@
 // WINDOW METHODS / OBJECTS / PROPERTIES
 
+// Window is the global object in client side js
+// Document object is part of window object
+
 // Alert
-//alert('Hello World');
+// alert('Hello World');
 
 // Prompt
 // const input = prompt();

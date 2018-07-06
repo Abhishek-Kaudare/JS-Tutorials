@@ -1,7 +1,7 @@
 // FUNCTION DECLARATIONS
 
-function greet(firstName = 'John', lastName = 'Doe'){
-  // if(typeof firstName === 'undefined'){firstName = 'John'}
+function greet(firstName = 'John', lastName = 'Doe'/* Declaring Default in Es6*/){ 
+  // if(typeof firstName === 'undefined'){firstName = 'John'} // In ES5 Defining  Default
   // if(typeof lastName === 'undefined'){lastName = 'Doe'}
   //console.log('Hello');
   return 'Hello ' + firstName + ' ' + lastName;
@@ -15,17 +15,17 @@ const square = function(x = 3){
   return x*x;
 };
 
-// console.log(square());
+// console.log(square( ));
 
 // IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFEs
 
-// (function(){
-//   console.log('IIFE Ran..');
-// })();
+(function(){
+  console.log('IIFE Ran..');
+})();
 
-// (function(name){
-//   console.log('Hello '+ name);
-// })('Brad');
+(function(name){
+  console.log('Hello '+ name);
+})('Brad');
 
 // PROPERTY METHODS
 
@@ -41,7 +41,7 @@ const todo = {
 todo.delete = function(){
   console.log('Delete todo...');
 }
-
+console.log(todo);
 todo.add();
 todo.edit(22);
 todo.delete();

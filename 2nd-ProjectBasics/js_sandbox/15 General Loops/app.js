@@ -40,10 +40,9 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Toyota'];
 // for(let i = 0; i < cars.length; i++){
 //   console.log(cars[i]);
 // }
-
-// FOREACH
-// cars.forEach(function(car, index, array){
-//   console.log(`${index} : ${car}`);
+ 
+// cars.forEach(function(car, index, array){                                                                          
+//   console.log(`${index+1} : ${car}`);//Template litterals operations on variables
 //   console.log(array);
 // });
 
@@ -70,5 +69,5 @@ const user = {
 }
 
 for(let x in user){
-  console.log(`${x} : ${user[x]}`);
+  console.log(`${x} : ${user[x]}`); //there is a key value relation in objects
 }
