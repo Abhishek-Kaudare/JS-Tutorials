@@ -49,7 +49,7 @@ val = window.location.search;
 // val = window.history.length;
 
 // Navigator Object
-val = window.navigator;
+val = window.navigator; console.log(val);
 val = window.navigator.appName;
 val = window.navigator.appVersion;
 val = window.navigator.userAgent;

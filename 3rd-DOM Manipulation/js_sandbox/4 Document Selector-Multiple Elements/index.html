@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../materialize.min.css">
+  <link href="../../font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+  <title>Task List</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div id="main" class="card">
+          <div class="card-content">
+            <span class="card-title">Task List</span>
+            <div class="row">
+              <form id="task-form">
+                <div class="input-field col s12">
+                  <input type="text" name="task" id="task" value="Walk the dog">
+                  <label for="task">New Task</label>
+                </div>
+                <input type="submit" value="Add Task" class="btn">
+              </form>
+            </div>
+            <div class="collection-item">TEST</div>
+            <div class="card-action">
+              <h5 id="task-title">Tasks</h5>
+              <ul class="collection">
+                <li class="collection-item">
+                  List Item
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  List Item
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  List Item
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  List Item
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+                <li class="collection-item">
+                  List Item
+                  <a href="#" class="delete-item secondary-content">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                </li>
+              </ul>
+              <a class="clear-tasks btn black" href="">Clear Tasks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../jquery-3.2.1.js" integrity="sha256-90/OzTSUeKFN5jPW4lqAcOA8ZwsZY5faZlwX7Dd7klk=" crossorigin="anonymous"></script>
+    <script src="../../materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
