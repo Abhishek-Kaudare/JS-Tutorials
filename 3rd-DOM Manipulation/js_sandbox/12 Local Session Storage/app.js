@@ -1,9 +1,13 @@
 // set local storage item
 // localStorage.setItem('name', 'John');
+// localStorage.setItem('address','Newyork')
 // localStorage.setItem('age', '30');
+// localStorage.clear(); // clears all items in local storage
+
 
 // set session storage item
 // sessionStorage.setItem('name', 'Beth');
+sessionStorage.setItem('age', '30');
 
 // remove from storage
 // localStorage.removeItem('name');

@@ -9,7 +9,7 @@ taskInput.value = '';
 // form.addEventListener('submit', runEvent);
 
 // Keydown
-//taskInput.addEventListener('keydown', runEvent);
+// taskInput.addEventListener('keydown', runEvent);
 // Keydown
 // taskInput.addEventListener('keyup', runEvent);
 // Keypress
@@ -30,7 +30,7 @@ select.addEventListener('change', runEvent);
 function runEvent(e){
   console.log(`EVENT TYPE: ${e.type}`);
 
-  //console.log(e.target.value);
+  console.log(e.target.value);
 
   // heading.innerText = e.target.value;
 

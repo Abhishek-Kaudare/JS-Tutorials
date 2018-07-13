@@ -21,7 +21,7 @@ function onClick(e){ // e is the event object
 
   // Event type
   val = e.type;
-  console.log(val);
+  console.log(e.type);
 
 
 
