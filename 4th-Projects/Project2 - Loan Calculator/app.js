@@ -1,12 +1,12 @@
 // Listen for Submit
 document.getElementById('loan-form').addEventListener('submit', function(e) {
   // Hidden Results
-  document.getElementById('results').style.dispalay = 'none';
+  document.getElementById('results').style.display = 'none';
 
   // Show loader
-  document.getElementById('loading').style.dispalay = 'block';
+  document.getElementById('loading').style.display = 'block';
 
-  setTimeout(calculateResults, 2000);
+  setTimeout(calculateResults, 1000);
 
   e.preventDefault();
 });
@@ -42,6 +42,9 @@ function calculateResults() {
     document.getElementById('results').style.display = 'block';
 
   } else {
+    // Hide loader
+    document.getElementById('loading').style.display = 'none';
+
     showError('Please check your input');
   }
 }
